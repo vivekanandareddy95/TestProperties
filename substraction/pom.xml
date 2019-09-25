@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.mycompany</groupId>
-	<artifactId>substraction</artifactId>
+	<artifactId>substractions</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>mule-application</packaging>
 
-	<name>substraction</name>
+	<name>substractions</name>
 
     <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -30,9 +30,9 @@
             <muleVersion>4.1.4</muleVersion>
             <username>${username}</username>
             <password>${password}</password>
-            <applicationName>${project.artifactId}</applicationName>
+            <applicationName>rxr-substractionz</applicationName>
             <environment>${environment}</environment>
-                        <businessGroup>${businessgroup}</businessGroup>
+                        <businessGroup>Work Stream - API-led Application Networks</businessGroup>
             <properties>
                 <key>value</key>
             </properties>
