@@ -1,0 +1,25 @@
+#%RAML 1.0
+baseUri: https://anypoint.mulesoft.com/mocking/api/v1/links/a62321b0-6971-489d-904b-227baf93a3ae/ # 
+title: Subtraction
+description: This API will accept two Values on to which Subtraction will be performed . The Subtracted result will be returned !
+version: v1
+
+types:
+  output : !include DataTypes/output.raml
+/Substraction:
+  post:
+    description: This API is used to Substraction
+    body:
+      application/json:
+         type:  !include DataTypes/input.raml
+
+    responses: 
+      200:
+        description: Transaction Successful  
+        body:
+          application/json :
+            type: output
+            example:
+              !include Examples/example.raml
+
+              
